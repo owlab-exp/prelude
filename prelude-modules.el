@@ -37,4 +37,4 @@
 (require 'prelude-xml)
 (require 'prelude-yaml)
 (require 'prelude-groovy)
-(require 'prelude-meghanada)
+;;(require 'prelude-meghanada)
