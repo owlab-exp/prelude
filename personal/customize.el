@@ -14,3 +14,6 @@
                                   (setq c-basic-offset 2
                                         tab-width 4
                                         indent-tabs-mode nil)))
+;; For Boot
+(add-to-list 'auto-mode-alist '("\\.boot\\'" . clojure-mode))
+(add-to-list 'magic-mode-alist '(".* boot" . clojure-mode))
