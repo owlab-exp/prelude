@@ -25,3 +25,4 @@ tramp
 .emacs.desktop.lock
 cider-history
 *.jar
+.nrepl-history

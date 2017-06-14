@@ -1,3 +1,6 @@
+;; hide menu bar
+(menu-bar-mode -1)
+;;
 (add-to-list 'default-frame-alist '(height . 72))
 (add-to-list 'default-frame-alist '(width . 100))
 ;;(evil-mode 0)
