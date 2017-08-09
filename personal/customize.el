@@ -20,3 +20,6 @@
 ;; For Boot
 (add-to-list 'auto-mode-alist '("\\.boot\\'" . clojure-mode))
 (add-to-list 'magic-mode-alist '(".* boot" . clojure-mode))
+
+;; for ensime-mode with evil-mode
+(evil-define-key 'normal ensime-mode-map (kbd "M-.") #'ensime-edit-definition)
